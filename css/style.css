@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  height: 15vh;
+  /* z-index: 2; */
+}
+header {
+  margin-top: -15vh;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: white;
+}
+.mycontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navbar-brand {
+  font-family: "Kaushan Script", cursive;
+  color: #ffffff;
+  font-size: 35px;
+}
+.nav-item a {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 90px;
+}
+.menuBar {
+  color: #ffffff;
+}
+a .fa {
+  padding-right: 5px;
+}
+a,
+a:focus,
+a:hover,
+a:active {
+  outline: none;
+}
+a,
+a:focus,
+a:hover,
+a:active {
+  color: #ffffff;
+}
+
+a:focus,
+a:hover,
+a:active:hover{
+  color: #ff6633;
+}
+.intro-text {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.coffee {
+  font-size: 3em;
+}
+.detailed {
+  font-size: 1em;
+}
+.goButton {
+  background-color: #ff6633;
+  color: #ffffff;
+  font-family: "Kaushan Script", cursive;
+  width: 300px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+section {
+  padding: 100px 0px;
+}
+
+#services {
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.section-heading {
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+.section-subheading {
+  font-family: "Fira Sans", sans-serif;
+}
+.fa-circle {
+  color: #ff6633;
+}
+
+.service-tags {
+  margin-top: 50px;
+}
+.section-heading > .fa-coffee,
+.fa-user {
+  padding-right: 10px;
+}
+/* 
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+.portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.portfolio-hover {
+  background-color: #ff6633;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  
+}
+.portfolio-hover:hover {
+  opacity: 0.9;
+}
+.portfolio-hover-content{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+} */
+.portfolio-item{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}
+.portfolio-item .portfolio-link{
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.portfolio-hover-content{
+  position: absolute;
+}
+.portfolio-item .portfolio-link img{
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+  .navbar,
+  .navbar-nav {
+    background-color: #ff6633;
+  }
+  .navbar-nav {
+    margin-left: -55px;
+  }
+}
